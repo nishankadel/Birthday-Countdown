@@ -1,4 +1,4 @@
-const newYears = "15 Oct 2021";
+const newYears = window.prompt("Please enter date of birth", "15 Oct 2022");
 
 const formatTime = (time) => {
   return time < 10 ? `0${time}` : time;
