@@ -25,5 +25,6 @@ const countDown = () => {
   leftSeconds.innerText = formatTime(seconds);
 };
 
-countDown();
+if(newYears){
+countDown();}
 setInterval(countDown, 1000);
